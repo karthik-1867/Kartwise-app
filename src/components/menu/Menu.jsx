@@ -6,6 +6,7 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import QueryStatsIcon from '@mui/icons-material/QueryStats';
 import MessageIcon from '@mui/icons-material/Message';
 import { Avatar } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 export default function Menu() {
   return (
@@ -13,25 +14,33 @@ export default function Menu() {
       <div className="MenuWrapper">
          <div className="MenuSocial">
             <h1 className='title'>Social users</h1>
+            <Link to="/" style={{textDecoration:'none',color:'inherit'}}>
             <div className="MenuItems">
               <Home/>
               <span>Home</span>
             </div>
+            </Link>
+            <Link to="/fav" style={{textDecoration:'none',color:'inherit'}}>
             <div className="MenuItems">
               <BookIcon/>
               <span>Fav user</span> 
             </div>
+            </Link>
+            <Link to="/expenseGroup" style={{textDecoration:'none',color:'inherit'}}>
             <div className="MenuItems">
               <Groups/>
               <span>Create expense group</span>
             </div>
+            </Link>
          </div>
          <div className="MenuExpense">
           <h1 className='title'>Expense dashboard</h1>
+          <Link to="/expenseSheet" style={{textDecoration:'none',color:'inherit'}}>
           <div className="MenuItems">
               <AttachMoneyIcon/>
               <span>Create expense</span>
           </div>
+          </Link>
           <div className="MenuItems">
             <QueryStatsIcon/>
             <span>Current expense status</span>

@@ -1,7 +1,10 @@
 .MenuContainer{
     flex: 1.5;
-    min-height: 100vh;
+    height: 100vh;
     background-color: #464775;
+    position: sticky;
+    top: 60px;
+    overflow-y: scroll;
 }
 
 .MenuWrapper{

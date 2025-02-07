@@ -3,6 +3,7 @@
    align-items: center;
    justify-content: center;
    width: 100%;
+   min-height: 100vh;
 }
 
 .HomeWrapper{
@@ -28,7 +29,7 @@
 
 .HomeList{
   overflow-y: scroll;
-  height: 40vh;
+  height: 60vh;
 }
 
 .HomeList li {

@@ -9,23 +9,29 @@ export default function CreateExpense() {
       <div className="ExpenseGroupWrapper">
          <div className="ExpenseGroupLists">
           <div className="ExpenseListWrapper">
-            <div className="ExpenseGroupList">
+            <div className="ExpenseGroupList addition">
               <h1 className='ExpenseGroupTitle'>Bookmarked users view</h1>
-              <ul className='ExpenseGroupListUl'>
+              <ul className='ExpenseGroupListUl ad1'>
+              <li >
+                <CreateExpenseAddUser/>
+                </li>
                 <li>
-                  <FavUser className='favItems'/>
-                  <FavUser className='favItems'/>
-                  <FavUser className='favItems'/>
-                  <FavUser className='favItems'/>
-                  <FavUser className='favItems'/>
-                  <FavUser className='favItems'/>
-                  <FavUser className='favItems'/>
-                  <FavUser className='favItems'/>
-                  <FavUser className='favItems'/>
-                  <FavUser className='favItems'/>
-                  <FavUser className='favItems'/>
-                  <FavUser className='favItems'/>
-                  <FavUser className='favItems'/>
+                <CreateExpenseAddUser/>
+                </li>
+                <li >
+                <CreateExpenseAddUser/>
+                </li>
+                <li >
+                <CreateExpenseAddUser/>
+                </li>
+                <li >
+                <CreateExpenseAddUser/>
+                </li>
+                <li >
+                <CreateExpenseAddUser/>
+                </li>
+                <li >
+                <CreateExpenseAddUser/>
                 </li>
               </ul>
             </div>

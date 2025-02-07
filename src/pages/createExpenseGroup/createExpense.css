@@ -3,11 +3,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 10px 10px;
-    min-height: 100vh;
-   
-
-    
+    padding: 10px 10px;    
 }
 
 .ExpenseGroupWrapper{
@@ -21,7 +17,6 @@
     width: fit-content;
     background-color: #8B8CC7;
     padding: 20px;
-    height: fit-content;
     border-radius: 10px;
     -webkit-box-shadow: 3px 1px 14px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 1px 14px 0px rgba(0,0,0,0.75);
@@ -61,6 +56,10 @@
     max-height: 40vh;
     margin-top: 10px;
     width: 100%;
+}
+
+.ad1{
+    max-height: 70vh;
 }
 
 

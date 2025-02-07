@@ -12,25 +12,63 @@ export default function Home() {
           <ul className='HomeList'>
             <li>
             <User user={'karthik'} className='HomeListValue'/>
+            </li>
+            <li>
             <User user={'karthik'} className='HomeListValue'/>
+            </li>
+            <li>
             <User user={'karthik'} className='HomeListValue'/>
-            <User user={'karthik'} className='HomeListValue'/> <User user={'karthik'} className='HomeListValue'/>
-            <User user={'karthik'} className='HomeListValue'/> <User user={'karthik'} className='HomeListValue'/>
-            <User user={'karthik'} className='HomeListValue'/> <User user={'karthik'} className='HomeListValue'/>
+            </li>
+            <li>
+            <User user={'karthik'} className='HomeListValue'/>
+            </li>
+
+            <li>
+            <User user={'karthik'} className='HomeListValue'/>
+            </li>
+            <li>
+            <User user={'karthik'} className='HomeListValue'/>
+            </li>
+            <li>
+            <User user={'karthik'} className='HomeListValue'/>
+            </li>
+            <li>
+            <User user={'karthik'} className='HomeListValue'/>
+            </li>
+            <li>
             <User user={'karthik'} className='HomeListValue'/>
             </li>
           </ul>
          </div>
-         <div className="HomeAllUsers">
+         <div className="HomeAllUsers preview">
           <h1>Added preview</h1>
           <ul className='HomeList'>
+          <li>
+            <User user={'karthik'} className='HomeListValue'/>
+            </li>
             <li>
             <User user={'karthik'} className='HomeListValue'/>
+            </li>
+            <li>
             <User user={'karthik'} className='HomeListValue'/>
+            </li>
+            <li>
             <User user={'karthik'} className='HomeListValue'/>
-            <User user={'karthik'} className='HomeListValue'/> <User user={'karthik'} className='HomeListValue'/>
-            <User user={'karthik'} className='HomeListValue'/> <User user={'karthik'} className='HomeListValue'/>
-            <User user={'karthik'} className='HomeListValue'/> <User user={'karthik'} className='HomeListValue'/>
+            </li>
+
+            <li>
+            <User user={'karthik'} className='HomeListValue'/>
+            </li>
+            <li>
+            <User user={'karthik'} className='HomeListValue'/>
+            </li>
+            <li>
+            <User user={'karthik'} className='HomeListValue'/>
+            </li>
+            <li>
+            <User user={'karthik'} className='HomeListValue'/>
+            </li>
+            <li>
             <User user={'karthik'} className='HomeListValue'/>
             </li>
           </ul>

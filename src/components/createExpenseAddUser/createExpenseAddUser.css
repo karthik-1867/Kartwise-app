@@ -1,4 +1,4 @@
-.UserContainer{
+.CreateExpenseAddUserContainer{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -7,37 +7,38 @@
     border-radius: 10px;
     height: fit-content;
     padding: 10px 10px;
-    width: 500px;
+    width: 95%;
     background-color: #6264A7;
     color: white;
+    margin-bottom: 5px;
 
 
 }
 
-.UserContainerLogo{
+.CreateExpenseAddUserLogo{
     width: 80px;
     height: 80px;
 }
 
-.UserDetails{
+.CreateExpenseAddUserDetails{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.UserDetailsUserName{
+.CreateExpenseAddUserUserName{
     font-size: 24px;
     font-weight: 500;
 }
 
-.UserDetailsName{
+.CreateExpenseAddUserName{
    font-size: 14px;
    font-weight: 400;
 }
 
 
 
-.UserAddToFavButton{
+.CreateExpenseAddUserButton{
     padding: 10px;
     border-radius: 20px;
     border: none;
@@ -46,7 +47,7 @@
     color: #464775
 }
 
-.UserAddToFavButton:hover{
+.CreateExpenseAddUserButton:hover{
     background-color: #8B8CC7;
     color: white;
     font-weight: 300;

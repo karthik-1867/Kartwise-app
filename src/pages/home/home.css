@@ -1,18 +1,20 @@
 .HomeContainer{
-    flex : 7;
-    background-color: #E6E6E6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
 }
 
 .HomeWrapper{
-    width: 100%;
-    padding: 5px;
+    width: fit-content;
+    padding: 20px;
     display: flex;
     align-items: top;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+    
 }
 
 .HomeList{
@@ -24,15 +26,21 @@
     margin-bottom: 10px;
 }
 
+.HomeList{
+  overflow-y: scroll;
+  height: 40vh;
+}
+
 .HomeList li {
-    max-height: 75vh; /* Adjust height as needed */
-    overflow-y: auto;
+     /* Adjust height as needed */
+  
     display: flex;
     width: fit-content;
     align-items: top;
     flex-direction: column;
     overflow-x: hidden;
-    padding: 10px;
+    margin-bottom: 4px;
+    
   }
 
 .HomeAllUsers{
@@ -40,11 +48,15 @@
     flex-direction: column;
     gap: 10px;
     background-color: #8B8CC7;
-    padding: 10px;
+    padding: 11px;
     border-radius: 10px;
     -webkit-box-shadow: 3px 1px 6px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 1px 6px 0px rgba(0,0,0,0.75);
     box-shadow: 3px 1px 6px 0px rgba(0,0,0,0.75);
+}
+
+.preview{
+    background-color: #464775;
 }
 
 .HomeAllUsers h1{

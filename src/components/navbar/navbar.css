@@ -16,8 +16,11 @@
 
 .NavbarLogo{
     color: white;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 900;
+    color: transparent;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 0.6px white;
 }
 
 .NavbarSearchIcon{

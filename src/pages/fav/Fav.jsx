@@ -46,8 +46,8 @@ export default function Fav() {
           </div>
           </div>
          </div>
-
-        <div className="favDetails">
+      </div>
+      <div className="favDetails">
           <div className="favDetailsWrapper">
               <h1 className='favDetailsTitle'>Quick expense summary</h1>
               <div className="TotalSpent">
@@ -68,7 +68,6 @@ export default function Fav() {
               </div>
           </div>
          </div>
-      </div>
     </div>
   )
 }

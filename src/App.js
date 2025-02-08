@@ -7,6 +7,7 @@ import Fav from "./pages/fav/Fav";
 import CreateExpenseSheet from "./pages/createExpenseSheet/CreateExpenseSheet";
 import CreateExpense from "./pages/createExpenseGroup/CreateExpense";
 import ExpenseSummary from "./pages/ExpenseSummary/ExpenseSummary";
+import Message from "./pages/message/Message";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
                <Route path="/expenseGroup" element={<CreateExpense/>}/>
                <Route path="/expenseSheet" element={<CreateExpenseSheet/>}/>
                <Route path="/expenseSummary" element={<ExpenseSummary/>}/>
+               <Route path="/message" element={<Message/>}/>
                
             </Route>
           </Routes>

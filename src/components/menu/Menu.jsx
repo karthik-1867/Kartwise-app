@@ -47,10 +47,12 @@ export default function Menu() {
             <span>Current expense status</span>
           </div>
           </Link>
+          <Link to="/message" style={{textDecoration:'none',color:'inherit'}}>
           <div className="MenuItems">              
             <MessageIcon/>
             <span>Message</span>
           </div>
+          </Link>
           <div className="MenuItems">
             <Logout/>
             <span>Logout</span>

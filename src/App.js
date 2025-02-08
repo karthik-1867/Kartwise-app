@@ -6,6 +6,7 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Fav from "./pages/fav/Fav";
 import CreateExpenseSheet from "./pages/createExpenseSheet/CreateExpenseSheet";
 import CreateExpense from "./pages/createExpenseGroup/CreateExpense";
+import ExpenseSummary from "./pages/ExpenseSummary/ExpenseSummary";
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
                <Route path="/fav" element={<Fav/>}/>
                <Route path="/expenseGroup" element={<CreateExpense/>}/>
                <Route path="/expenseSheet" element={<CreateExpenseSheet/>}/>
+               <Route path="/expenseSummary" element={<ExpenseSummary/>}/>
+               
             </Route>
           </Routes>
           </div>

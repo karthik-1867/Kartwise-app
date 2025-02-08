@@ -1,0 +1,56 @@
+.expenseCardContainer{
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    color: #6264A7;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 5px;
+}
+
+
+.expenseCardUserInfo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.expenseCardButtons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.expenseCardButton{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #6264A7;
+}
+
+.expenseCardExpenditure{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.expenseCardExpenditurespent,.expenseCardExpenditurereceived{
+    background-color: #8B8CC7;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+}
+
+.expenseCardUserLogo{
+    width: 80px;
+    height: 80px;
+}
+
+.expenseCardUserDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

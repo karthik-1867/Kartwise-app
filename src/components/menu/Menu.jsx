@@ -41,10 +41,12 @@ export default function Menu() {
               <span>Create expense</span>
           </div>
           </Link>
+          <Link to="/expenseSummary" style={{textDecoration:'none',color:'inherit'}}>
           <div className="MenuItems">
             <QueryStatsIcon/>
             <span>Current expense status</span>
           </div>
+          </Link>
           <div className="MenuItems">              
             <MessageIcon/>
             <span>Message</span>
